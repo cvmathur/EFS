@@ -1,0 +1,4 @@
+driver/src/mod_cdr_mongodb_la-numbers.lo: driver/src/numbers.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

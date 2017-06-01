@@ -1,0 +1,3 @@
+mod_java_la-mod_java.lo: mod_java.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

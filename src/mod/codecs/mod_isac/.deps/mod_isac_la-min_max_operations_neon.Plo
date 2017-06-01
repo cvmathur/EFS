@@ -1,0 +1,4 @@
+mod_isac_la-min_max_operations_neon.lo: min_max_operations_neon.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

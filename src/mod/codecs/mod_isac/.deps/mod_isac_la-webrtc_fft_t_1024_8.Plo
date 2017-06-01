@@ -1,0 +1,4 @@
+mod_isac_la-webrtc_fft_t_1024_8.lo: webrtc_fft_t_1024_8.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,125 @@
+../../../../libs/xmlrpc-c/lib/libutil/mod_xml_rpc_la-select.lo: \
+ ../../../../libs/xmlrpc-c/lib/libutil/select.c \
+ /usr/include/stdc-predef.h ../../../../libs/xmlrpc-c/xmlrpc_config.h \
+ ../../../../libs/xmlrpc-c/xmlrpc_amconfig.h /usr/include/sys/time.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/bits/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h \
+ /usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/select_int.h \
+ /usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h \
+ /usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/time_int.h \
+ /usr/include/bits/timex.h /usr/include/xlocale.h \
+ /usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/util.h \
+ /usr/include/sys/types.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/sysmacros.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/config.h \
+ /usr/include/wchar.h /usr/include/stdio.h /usr/include/bits/wchar.h \
+ /usr/src/freeswitch/libs/xmlrpc-c/lib/util/include/int.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h
+
+/usr/include/stdc-predef.h:
+
+../../../../libs/xmlrpc-c/xmlrpc_config.h:
+
+../../../../libs/xmlrpc-c/xmlrpc_amconfig.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/select_int.h:
+
+/usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/c_util.h:
+
+/usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/time_int.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/xlocale.h:
+
+/usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/util.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+/usr/src/freeswitch/libs/xmlrpc-c/include/xmlrpc-c/config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/src/freeswitch/libs/xmlrpc-c/lib/util/include/int.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:

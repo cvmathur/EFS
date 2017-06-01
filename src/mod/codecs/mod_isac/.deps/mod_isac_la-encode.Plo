@@ -1,0 +1,87 @@
+mod_isac_la-encode.lo: encode.c /usr/include/stdc-predef.h \
+ /usr/include/stdlib.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h structs.h \
+ typedefs.h /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h settings.h isac.h \
+ codec.h pitch_estimator.h entropy_coding.h arith_routines.h \
+ pitch_gain_tables.h pitch_lag_tables.h spectrum_ar_model_tables.h \
+ lpc_tables.h lpc_analysis.h bandwidth_estimator.h \
+ lpc_shape_swb12_tables.h lpc_shape_swb16_tables.h lpc_gain_swb_tables.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+structs.h:
+
+typedefs.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+settings.h:
+
+isac.h:
+
+codec.h:
+
+pitch_estimator.h:
+
+entropy_coding.h:
+
+arith_routines.h:
+
+pitch_gain_tables.h:
+
+pitch_lag_tables.h:
+
+spectrum_ar_model_tables.h:
+
+lpc_tables.h:
+
+lpc_analysis.h:
+
+bandwidth_estimator.h:
+
+lpc_shape_swb12_tables.h:
+
+lpc_shape_swb16_tables.h:
+
+lpc_gain_swb_tables.h:

@@ -1,0 +1,784 @@
+libfreeswitch_la-switch_core_port_allocator.lo: \
+ src/switch_core_port_allocator.c /usr/include/stdc-predef.h \
+ src/include/switch.h src/include/switch_am_config.h \
+ /usr/include/stdlib.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/assert.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/ctype.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/string.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/include/strings.h /usr/include/sys/stat.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/timex.h /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h src/include/switch_platform.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h /usr/include/bits/netdb.h \
+ src/include/switch_types.h src/include/switch_json.h \
+ src/include/switch.h src/include/switch_vpx.h src/include/switch_image.h \
+ src/include/switch_apr.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h src/include/switch_mprintf.h \
+ src/include/switch_core_db.h src/include/switch_dso.h \
+ src/include/switch_regex.h src/include/switch_core.h \
+ src/include/switch_loadable_module.h src/include/switch_log.h \
+ src/include/switch_module_interfaces.h src/include/switch_resample.h \
+ src/include/switch_frame.h src/include/switch_console.h \
+ src/include/switch_utils.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ src/include/switch_caller.h src/include/switch_rtcp_frame.h \
+ src/include/switch_module_interfaces.h src/include/switch_channel.h \
+ src/include/switch_buffer.h src/include/switch_event.h \
+ src/include/switch_ivr.h src/include/switch_core_video.h \
+ src/include/switch_json.h src/include/switch_rtp.h \
+ src/include/switch_log.h src/include/switch_xml.h \
+ src/include/switch_xml_config.h src/include/switch_core_event_hook.h \
+ src/include/switch_scheduler.h src/include/switch_config.h \
+ src/include/switch_nat.h src/include/switch_odbc.h \
+ src/include/switch_pgsql.h src/include/switch_limit.h \
+ src/include/switch_core_media.h src/include/switch_core_video.h \
+ src/include/switch_jitterbuffer.h src/include/switch_estimators.h \
+ /usr/src/freeswitch/libs/libteletone/src/libteletone.h \
+ /usr/src/freeswitch/libs/libteletone/src/libteletone_generate.h \
+ /usr/src/freeswitch/libs/libteletone/src/libteletone_detect.h \
+ src/include/private/switch_core_pvt.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h \
+ /usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiffio.h \
+ /usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiff.h \
+ /usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiffconf.h \
+ /usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiffvers.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/telephony.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/alloc.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/fast_convert.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/logging.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/complex.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/bit_operations.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/bitstream.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/queue.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/schedule.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/g711.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/timing.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/math_fixed.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/vector_float.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/complex_vector_float.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/vector_int.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/complex_vector_int.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/arctan2.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/biquad.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/fir.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/awgn.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/bert.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/power_meter.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/complex_filters.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/dc_restore.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/dds.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/swept_tone.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/echo.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/fir.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/modem_echo.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/crc.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/async.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/hdlc.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/noise.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/saturated.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/time_scale.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/tone_detect.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/tone_generate.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/super_tone_rx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/super_tone_tx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/dtmf.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/bell_r2_mf.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/sig_tone.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/fsk.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/modem_connect_tones.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/silence_gen.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v8.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v29rx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v29tx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v17rx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v17tx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v22bis.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v27ter_rx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v27ter_tx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v42.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v42bis.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/v18.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/timezone.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t4_rx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t4_tx.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/image_translate.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t4_t6_decode.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t4_t6_encode.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t81_t82_arith_coding.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t85.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t42.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t43.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t30.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t30_api.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t30_fcf.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t30_logging.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t35.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/at_interpreter.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/data_modems.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/fax_modems.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/fax.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t38_core.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t38_non_ecm_buffer.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t38_gateway.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t38_terminal.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/t31.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/adsi.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/ademco_contactid.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/oki_adpcm.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/ima_adpcm.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/g722.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/g726.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/lpc10.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/gsm0610.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/plc.h \
+ /usr/src/freeswitch/libs/spandsp/src/spandsp/playout.h \
+ src/include/switch_profile.h src/include/switch_private.h \
+ /usr/src/freeswitch/libs/apr/include/apr_pools.h \
+ /usr/src/freeswitch/libs/apr/include/apr.h /usr/include/sys/wait.h \
+ /usr/src/freeswitch/libs/apr/include/apr_errno.h \
+ /usr/src/freeswitch/libs/apr/include/apr_general.h \
+ /usr/src/freeswitch/libs/apr/include/apr_pools.h \
+ /usr/src/freeswitch/libs/apr/include/apr_want.h \
+ /usr/src/freeswitch/libs/apr/include/apr_allocator.h \
+ /usr/src/freeswitch/libs/apr/include/apr_thread_mutex.h \
+ /usr/src/freeswitch/libs/apr/include/apr_hash.h \
+ /usr/src/freeswitch/libs/apr/include/apr_strings.h \
+ /usr/src/freeswitch/libs/apr/include/apr_general.h \
+ /usr/src/freeswitch/libs/apr/include/apr_portable.h \
+ /usr/src/freeswitch/libs/apr/include/apr_thread_proc.h \
+ /usr/src/freeswitch/libs/apr/include/apr_file_io.h \
+ /usr/src/freeswitch/libs/apr/include/apr_time.h \
+ /usr/src/freeswitch/libs/apr/include/apr_file_info.h \
+ /usr/src/freeswitch/libs/apr/include/apr_user.h \
+ /usr/src/freeswitch/libs/apr/include/apr_tables.h \
+ /usr/src/freeswitch/libs/apr/include/apr_inherit.h \
+ /usr/include/sys/time.h /usr/include/sys/resource.h \
+ /usr/include/bits/resource.h \
+ /usr/src/freeswitch/libs/apr/include/apr_network_io.h \
+ /usr/src/freeswitch/libs/apr/include/apr_global_mutex.h \
+ /usr/src/freeswitch/libs/apr/include/apr_proc_mutex.h \
+ /usr/src/freeswitch/libs/apr/include/apr_dso.h \
+ /usr/src/freeswitch/libs/apr/include/apr_shm.h /usr/include/dirent.h \
+ /usr/include/bits/dirent.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/pwd.h /usr/include/grp.h
+
+/usr/include/stdc-predef.h:
+
+src/include/switch.h:
+
+src/include/switch_am_config.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/assert.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/ctype.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/strings.h:
+
+/usr/include/sys/stat.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+src/include/switch_platform.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/netdb.h:
+
+src/include/switch_types.h:
+
+src/include/switch_json.h:
+
+src/include/switch.h:
+
+src/include/switch_vpx.h:
+
+src/include/switch_image.h:
+
+src/include/switch_apr.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+src/include/switch_mprintf.h:
+
+src/include/switch_core_db.h:
+
+src/include/switch_dso.h:
+
+src/include/switch_regex.h:
+
+src/include/switch_core.h:
+
+src/include/switch_loadable_module.h:
+
+src/include/switch_log.h:
+
+src/include/switch_module_interfaces.h:
+
+src/include/switch_resample.h:
+
+src/include/switch_frame.h:
+
+src/include/switch_console.h:
+
+src/include/switch_utils.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+src/include/switch_caller.h:
+
+src/include/switch_rtcp_frame.h:
+
+src/include/switch_module_interfaces.h:
+
+src/include/switch_channel.h:
+
+src/include/switch_buffer.h:
+
+src/include/switch_event.h:
+
+src/include/switch_ivr.h:
+
+src/include/switch_core_video.h:
+
+src/include/switch_json.h:
+
+src/include/switch_rtp.h:
+
+src/include/switch_log.h:
+
+src/include/switch_xml.h:
+
+src/include/switch_xml_config.h:
+
+src/include/switch_core_event_hook.h:
+
+src/include/switch_scheduler.h:
+
+src/include/switch_config.h:
+
+src/include/switch_nat.h:
+
+src/include/switch_odbc.h:
+
+src/include/switch_pgsql.h:
+
+src/include/switch_limit.h:
+
+src/include/switch_core_media.h:
+
+src/include/switch_core_video.h:
+
+src/include/switch_jitterbuffer.h:
+
+src/include/switch_estimators.h:
+
+/usr/src/freeswitch/libs/libteletone/src/libteletone.h:
+
+/usr/src/freeswitch/libs/libteletone/src/libteletone_generate.h:
+
+/usr/src/freeswitch/libs/libteletone/src/libteletone_detect.h:
+
+src/include/private/switch_core_pvt.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h:
+
+/usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiffio.h:
+
+/usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiff.h:
+
+/usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiffconf.h:
+
+/usr/src/freeswitch/libs/tiff-4.0.2/libtiff/tiffvers.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/telephony.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/alloc.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/fast_convert.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/logging.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/complex.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/bit_operations.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/bitstream.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/queue.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/schedule.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/g711.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/timing.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/math_fixed.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/vector_float.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/complex_vector_float.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/vector_int.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/complex_vector_int.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/arctan2.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/biquad.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/fir.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/awgn.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/bert.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/power_meter.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/complex_filters.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/dc_restore.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/dds.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/swept_tone.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/echo.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/fir.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/modem_echo.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/crc.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/async.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/hdlc.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/noise.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/saturated.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/time_scale.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/tone_detect.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/tone_generate.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/super_tone_rx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/super_tone_tx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/dtmf.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/bell_r2_mf.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/sig_tone.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/fsk.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/modem_connect_tones.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/silence_gen.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v8.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v29rx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v29tx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v17rx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v17tx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v22bis.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v27ter_rx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v27ter_tx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v42.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v42bis.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/v18.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/timezone.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t4_rx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t4_tx.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/image_translate.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t4_t6_decode.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t4_t6_encode.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t81_t82_arith_coding.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t85.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t42.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t43.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t30.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t30_api.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t30_fcf.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t30_logging.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t35.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/at_interpreter.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/data_modems.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/fax_modems.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/fax.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t38_core.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t38_non_ecm_buffer.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t38_gateway.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t38_terminal.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/t31.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/adsi.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/ademco_contactid.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/oki_adpcm.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/ima_adpcm.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/g722.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/g726.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/lpc10.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/gsm0610.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/plc.h:
+
+/usr/src/freeswitch/libs/spandsp/src/spandsp/playout.h:
+
+src/include/switch_profile.h:
+
+src/include/switch_private.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_pools.h:
+
+/usr/src/freeswitch/libs/apr/include/apr.h:
+
+/usr/include/sys/wait.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_errno.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_general.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_pools.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_want.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_allocator.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_thread_mutex.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_hash.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_strings.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_general.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_portable.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_thread_proc.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_file_io.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_time.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_file_info.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_user.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_tables.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_inherit.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/bits/resource.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_network_io.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_global_mutex.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_proc_mutex.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_dso.h:
+
+/usr/src/freeswitch/libs/apr/include/apr_shm.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/include/sys/mman.h:
+
+/usr/include/bits/mman.h:
+
+/usr/include/pwd.h:
+
+/usr/include/grp.h:
