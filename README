@@ -1,0 +1,5 @@
+Decryption/Encryption is placed for RTP at:
+./src/switch_apr.c in recvfrom and sendto fns.
+
+Signalling is so far plain, if encryption patch needed then see:
+./libs/sofia-sip/libsofia-sip-ua/su/su.c and search for su_vsend & su_vrecv fns.
